@@ -1,0 +1,49 @@
+.container {
+    text-align: center;
+}
+.row-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.seat {
+    border: 1px solid black;
+    margin: 4px 8px 0 0;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+    width: 130px;
+    background-color: cornflowerblue;
+}
+.reserved-seat {
+    border: 1px solid black;
+    margin: 4px 8px 0 0;
+    padding: 4px;
+    text-align: center;
+    opacity: 0.6;
+    background-color: red;
+    width: 130px;
+    cursor: disabled;
+}
+.selected-seat {
+    border: 1px solid black;
+    margin: 4px 8px 0 0;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+    width: 130px;
+    background-color: green;
+}
+.button{
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 0 12px;
+    padding: 4px 8px;
+}
+.inverted-pyramid {
+    width: 160px;
+    height: 160px;
+    clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+    text-align: center;
+  }
